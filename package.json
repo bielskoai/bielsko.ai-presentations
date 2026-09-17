@@ -1,11 +1,17 @@
 {
-  "name": "slides-001",
+  "name": "bielsko-ai-presentations",
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build",
-    "dev": "slidev --open",
-    "export": "slidev export"
+    "dev": "slidev decks/${DECK:-002}/slides.md --open",
+    "dev:001": "slidev decks/001/slides.md --open",
+    "dev:002": "slidev decks/002/slides.md --open",
+    "build": "slidev build decks/${DECK:-002}/slides.md --out ../../dist",
+    "build:001": "slidev build decks/001/slides.md --out ../../dist",
+    "build:002": "slidev build decks/002/slides.md --out ../../dist",
+    "export": "slidev export decks/${DECK:-002}/slides.md --output bielsko-ai-${DECK:-002}.pdf",
+    "export:001": "slidev export decks/001/slides.md --output bielsko-ai-001.pdf",
+    "export:002": "slidev export decks/002/slides.md --output bielsko-ai-002.pdf"
   },
   "dependencies": {
     "@slidev/cli": "^52.16.0",

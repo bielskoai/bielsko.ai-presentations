@@ -1,5 +1,10 @@
 ---
 theme: default
+# Lokalny addon z brandingiem bielsko.ai (komponenty Eyebrow/Photo + style.css).
+# Uwaga: Slidev rozwiązuje ścieżki addonów względem katalogu nadrzędnego decka (decks/),
+# stąd `../shared`, a nie `../../shared`.
+addons:
+  - ../shared
 title: bielsko.ai — Meetup #001
 colorSchema: dark
 fonts:

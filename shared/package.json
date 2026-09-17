@@ -1,0 +1,7 @@
+{
+  "name": "slidev-addon-bielsko-ai",
+  "private": true,
+  "description": "Wspólny branding bielsko.ai dla wszystkich decków: komponenty (Eyebrow, Photo) i style.css. Ładowany jako lokalny addon Slidev.",
+  "keywords": ["slidev-addon"],
+  "slidev": {}
+}
