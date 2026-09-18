@@ -28,15 +28,18 @@ const items = [
     sub: 'Pół dnia wspólnego budowania z Grok Botem — bez wymagań, przynieś laptop.',
   },
   {
-    when: 'LISTOPAD / GRUDZIEŃ',
+    title: 'Creativity Unlocked × ElevenLabs',
+    sub: 'Meetup? Hackathon? Game Jam? Wybierzmy wspólnie.',
+  },
+  {
     title: 'bielsko.ai meetup #003',
-    sub: 'W partnerstwie z dużym graczem ze świata AI.',
+    sub: 'Pokaż, co budujesz. Nawet jeśli jeszcze nie jest gotowe.',
   },
 ]
 </script>
 
 <template>
-  <div class="border-l border-green-400/60 pl-8 space-y-4 mt-2">
+  <div class="border-l border-green-400/60 pl-8 space-y-3 mt-0">
     <template v-for="(it, i) in items" :key="it.title">
       <v-click v-if="i >= from && i < to">
         <RoadmapItem :item="it" />

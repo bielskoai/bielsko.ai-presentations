@@ -278,7 +278,8 @@ layoutClass: gap-16
 
 <!--
 Kliki po kolei: dziś #002 (REKORD SI, BBDays4.IT) → jesień: Grok Build Day razem ze
-SpaceXAI (format jak community Builder Days, np. Dublin w październiku) → listopad/grudzień:
+SpaceXAI (format jak community Builder Days, np. Dublin w październiku) → jesień:
+Creativity Unlocked z ElevenLabs — format otwarty, wybierzemy go razem → listopad/grudzień:
 #003 z dużym partnerem ze świata AI — nazwy jeszcze nie zdradzamy. Obserwujcie Discord,
 tam pojawi się pierwsze.
 -->
@@ -375,7 +376,7 @@ class: text-center
 
 <Eyebrow>AGENCI · #001 → #002</Eyebrow>
 
-# Na #001 pokazywaliśmy Hermesa i OpenClaw
+# Na #001 rozmawialiśmy o Hermesie i OpenClaw
 
 <div class="accent-line mx-auto"></div>
 
